@@ -14,7 +14,11 @@
 - Deploy and run a Java Gradle application on Droplet
 
 ### Notes
-- Authentication in digital ocean:  cat ~/.ssh/id_rsa.pub
+- Select SSH Key as authentication method
+  <img src="./Screenshot from 2023-05-03 16-13-00.png" alt="Select SSH Key as authentication method">
+ 
+ 
+ cat ~/.ssh/id_rsa.pub
     add that public key into droplet.
     
     build jar file: ./gradlew build
