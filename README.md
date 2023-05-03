@@ -20,14 +20,31 @@
  
 - Get your public key
 
+  <img src="./Screenshot from 2023-05-03  17-36-59.png" alt="Get your public key">
+
+- Add your public key to DigitalOcean
+
   <img src="./Screenshot from 2023-05-03 16-13-43.png" alt="Get your public key">
+  
+- Create an Inbound Firewall Rule to connect to remote droplet server using ssh by providing port number and sources
  
- cat ~/.ssh/id_rsa.pub
-    add that public key into droplet.
-    
-    build jar file: ./gradlew build
-    
-    Copy jar file to remote server: scp build/libs/java-react-example.jar [root@157.245.102.50](mailto:root@157.245.102.50):/root
+  <img src="./Screenshot from 2023-05-03 16-17-44.png" alt="Get your public key">
+  
+- Add the firewall rule to our droplet
+
+  <img src="./Screenshot from 2023-05-03 16-19-41.png" alt="Get your public key">
+  
+- SSH into droplet server using Public IP of server
+
+  <img src="./Screenshot from 2023-05-03 16-21-16.png" alt="Get your public key">
+  
+- Create build for the Web Application
+
+  <img src="./Screenshot from 2023-05-03 16-26-45.png" alt="Get your public key">
+  
+- Copy jar file from local to remote server 
+
+  <img src="./Screenshot from 2023-05-03 16-26-45.png" alt="Get your public key">
     
     executing jar file on server: java -jar java-react-example.jar
     
