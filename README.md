@@ -20,7 +20,7 @@
  
 - Get your public key
 
-  <img src="./Screenshot from 2023-05-03  17-36-59.png" alt="Get your public key">
+  <img src="./Screenshot from 2023-05-03 17-36-59.png" alt="Get your public key">
 
 - Add your public key to DigitalOcean
 
