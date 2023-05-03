@@ -15,8 +15,12 @@
 
 ### Notes
 - Select SSH Key as authentication method
+
   <img src="./Screenshot from 2023-05-03 16-13-00.png" alt="Select SSH Key as authentication method">
  
+- Get your public key
+
+  <img src="./Screenshot from 2023-05-03 16-13-43.png" alt="Get your public key">
  
  cat ~/.ssh/id_rsa.pub
     add that public key into droplet.
